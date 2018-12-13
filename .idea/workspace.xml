@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86687895-b8d6-4b20-86fc-03607ba6c4b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Genesis/Events.php" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Genesis/Events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications/Genesis/Tools/MessageTools.php" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Genesis/Tools/MessageTools.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,17 +38,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Applications/Genesis/Socket/SocketHead.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+            <state relative-caret-position="282">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Applications/Genesis/Socket/SocketUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+              <folding>
+                <element signature="e#115#134#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Applications/Genesis/Tools/MessageTools.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="725">
+              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -154,6 +174,7 @@
         <option value="$PROJECT_DIR$/start.php" />
         <option value="$PROJECT_DIR$/Applications/Genesis/Events.php" />
         <option value="$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php" />
+        <option value="$PROJECT_DIR$/Applications/Genesis/Tools/MessageTools.php" />
       </list>
     </option>
   </component>
@@ -255,7 +276,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544680448446" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544680831081" />
     <property name="last_opened_file_path" value="D:/phpstorm-stubs-master" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -327,7 +348,7 @@
       <workItem from="1544407513835" duration="17674000" />
       <workItem from="1544508083375" duration="18369000" />
       <workItem from="1544661775309" duration="399000" />
-      <workItem from="1544662433242" duration="12171000" />
+      <workItem from="1544662433242" duration="12722000" />
     </task>
     <task id="LOCAL-00001" summary="1.修改mysql密码&#10;2.更改证书位置">
       <created>1544666323194</created>
@@ -441,11 +462,25 @@
       <option name="project" value="LOCAL" />
       <updated>1544672815800</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="&quot;&quot;">
+      <created>1544680436502</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1544680436502</updated>
+    </task>
+    <task id="LOCAL-00018" summary="&quot;&quot;">
+      <created>1544680509495</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1544680509495</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97192000" />
+    <option name="totallyTimeSpent" value="97743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,14 +542,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;&quot;" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/predis/predis/FAQ.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="625">
@@ -609,16 +636,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Applications/Genesis/Socket/SocketUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-          <folding>
-            <element signature="e#115#134#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Applications/Genesis/Common/TTRedis.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -777,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/phpstorm-stubs-master/standard/standard_7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="186" column="9" selection-start-line="186" selection-start-column="9" selection-end-line="186" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/start_for_win.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -843,17 +853,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Applications/Genesis/Socket/SocketHead.php">
+    <entry file="file://$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        <state relative-caret-position="725">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php">
+    <entry file="file://D:/phpstorm-stubs-master/standard/standard_7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="290">
+          <caret line="169" column="9" selection-start-line="169" selection-start-column="9" selection-end-line="169" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/Genesis/Socket/SocketUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="70" column="54" selection-start-line="70" selection-start-column="54" selection-end-line="70" selection-end-column="54" />
+          <folding>
+            <element signature="e#115#134#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/Genesis/Socket/SocketHead.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/Genesis/Tools/MessageTools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
         </state>
       </provider>
     </entry>

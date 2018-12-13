@@ -24,10 +24,10 @@ class MessageTools
 
         // 设置body大小
         $mr[SocketHead::H6_BODY] = strlen($body);
-
+        PhpLog::println("body", $body);
         // 连接下行数据
         $sendMsg = SocketHead::pack($mr).$body;
-
+        PhpLog::println("sendMsg", $sendMsg);
         return $sendMsg;
     }
 
