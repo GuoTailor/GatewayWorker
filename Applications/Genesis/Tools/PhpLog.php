@@ -13,7 +13,6 @@ class PhpLog
 {
     private static function LogFile($log, $file) {
         $time = date("Y-m-d H:i:s");
-        print $time." ".$log;
         file_put_contents($file, $time." ".$log."\r\n\r\n",FILE_APPEND);
     }
 
