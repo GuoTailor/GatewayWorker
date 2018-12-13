@@ -20,7 +20,7 @@ class PhpLog
         $time = date("Y-m-d H:i:s");
         print $time." ".$TAG.": ";
         if ($log == null)
-            print "\r\n";
+            print "null";
         else
             print_r($log);
         print "\r\n";
