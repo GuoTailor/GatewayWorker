@@ -58,8 +58,8 @@ class Events
             $messageSize = strlen($message);
             $headSize = SocketHead::HEAD_SIZE;
             $bodySize = $mr[SocketHead::H6_BODY];
-            PhpLog::println("mr", $mr);
-            PhpLog::println("message", $message);
+            //PhpLog::println("mr", $mr);
+            //PhpLog::println("message", $message);
 
             switch ($mr[SocketHead::H4_CMD]) {
                 case Events::CMD_ID_NOOP:
@@ -109,7 +109,9 @@ class Events
         $head = substr($message, 0, SocketHead::HEAD_SIZE);
         $mr = SocketHead::unpack($head);
         PhpLog::Log("Request head: ".json_encode($mr));
-
+        PhpLog::println("message", $message);
+        PhpLog::println("head", $head);
+        PhpLog::println("mr", $mr);
         // 检测头是否有效
         if($mr != null) {
             self::handleMessage($client_id, $mr, $message);

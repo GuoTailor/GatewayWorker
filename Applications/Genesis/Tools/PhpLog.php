@@ -17,7 +17,8 @@ class PhpLog
     }
 
     public static function println($massage ,$log) {
-        print_r($massage.": ");
+        $time = date("Y-m-d H:i:s");
+        print_r($time." ".$massage.": ");
         print_r($log);
         print_r("\r\n");
     }
