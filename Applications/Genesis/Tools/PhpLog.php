@@ -23,7 +23,7 @@ class PhpLog
             print "null";
         else
             print_r($log);
-        print "\r\n";
+        print "<<\r\n";
     }
 
     public static function Log($log) {
