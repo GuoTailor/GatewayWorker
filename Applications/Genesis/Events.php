@@ -58,6 +58,9 @@ class Events
             $headSize = SocketHead::HEAD_SIZE;
             $bodySize = $mr[SocketHead::H6_BODY];
 
+            print_r($mr);
+            print_r($message);
+
             switch ($mr[SocketHead::H4_CMD]) {
                 case Events::CMD_ID_NOOP:
                     SocketUser::loop($client_id, $mr);
