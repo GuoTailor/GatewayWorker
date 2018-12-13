@@ -16,6 +16,12 @@ class PhpLog
         file_put_contents($file, $time." ".$log."\r\n\r\n",FILE_APPEND);
     }
 
+    public static function println($massage ,$log) {
+        print_r($massage.": ");
+        print_r($log);
+        print_r("\r\n");
+    }
+
     public static function Log($log) {
         self::LogFile($log, "log/log".date("Ymd").".txt");
     }

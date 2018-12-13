@@ -48,7 +48,7 @@ class Events
      * @param int $client_id 连接id
      */
     public static function onConnect($client_id) {
-        print_r("client_id: $client_id");
+        PhpLog::println("client_id", $client_id);
         PhpLog::Log("$client_id onConnect");
     }
 
@@ -58,9 +58,8 @@ class Events
             $messageSize = strlen($message);
             $headSize = SocketHead::HEAD_SIZE;
             $bodySize = $mr[SocketHead::H6_BODY];
-
-            print_r("mr: ".$mr);
-            print_r("message: ".$message);
+            PhpLog::println("mr", $mr);
+            PhpLog::println("message", $message);
 
             switch ($mr[SocketHead::H4_CMD]) {
                 case Events::CMD_ID_NOOP:
