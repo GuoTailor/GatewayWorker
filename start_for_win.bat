@@ -1,2 +1,2 @@
-D:\wamp64\bin\php\php5.6.38\php Applications\Genesis\start_register.php Applications\Genesis\start_gateway.php Applications\Genesis\start_businessworker.php
+C:\Users\tt_de\Downloads\php-5.6.38-Win32-VC11-x86\php.exe Applications\Genesis\start_register.php Applications\Genesis\start_gateway.php Applications\Genesis\start_businessworker.php Applications\Genesis\start_gateway.php Applications\Genesis\start_my_iso_push.php Applications\Genesis\start_gateway.php Applications\Genesis\start_my_riding_record.php Applications\Genesis\start_gateway.php Applications\Genesis\start_time_out.php
 pause

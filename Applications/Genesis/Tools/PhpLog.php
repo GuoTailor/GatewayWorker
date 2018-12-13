@@ -20,7 +20,7 @@ class PhpLog
         $time = date("Y-m-d H:i:s");
         print_r($time." ".$massage.": ");
         print_r($log);
-        print_r("\r\n");
+        print "\r\n";
     }
 
     public static function Log($log) {
