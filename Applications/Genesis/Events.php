@@ -109,9 +109,10 @@ class Events
         $head = substr($message, 0, SocketHead::HEAD_SIZE);
         $mr = SocketHead::unpack($head);
         PhpLog::Log("Request head: ".json_encode($mr));
-        PhpLog::println("message", $message);
+        PhpLog::println("message>>", $message);
         PhpLog::println("head", $head);
         PhpLog::println("mr", $mr);
+        PhpLog::println("mr", "nmka><><");
         // 检测头是否有效
         if($mr != null) {
             self::handleMessage($client_id, $mr, $message);
