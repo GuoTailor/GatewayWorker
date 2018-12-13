@@ -17,6 +17,9 @@ class PhpLog
     }
 
     public static function println($TAG ,$log) {
+        $f=self::lock_open();//创建锁
+        self::lock_lock($f);//锁定
+
         $time = date("Y-m-d H:i:s");
         print $time." ".$TAG.": ";
         if ($log == null)
@@ -24,6 +27,45 @@ class PhpLog
         else
             print_r($log);
         print "<<\r\n";
+
+        self::lock_unlock($f);//解锁
+        self::lock_close($f);//删除锁
+    }
+
+    /**
+     * 创建一个锁
+     * @return [type] [description]
+     */
+    static function lock_open(){
+        return fopen("flock.xhxx","w+");
+    }
+
+    /**
+     * 销毁一个锁
+     * @param  [type] $f [description]
+     * @return [type]    [description]
+     */
+    static function lock_close($f){
+        fclose($f);
+        unlink("flock.xhxx");
+    }
+
+    /**
+     * 进入锁定
+     * @param  [type] $f [description]
+     * @return [type]    [description]
+     */
+    static function lock_lock($f){
+        flock($f,LOCK_EX);
+    }
+
+    /**
+     * 退出锁定
+     * @param  [type] $f [description]
+     * @return [type]    [description]
+     */
+    static function lock_unlock($f){
+        flock($f,LOCK_UN);
     }
 
     public static function Log($log) {
