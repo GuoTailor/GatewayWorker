@@ -60,6 +60,7 @@ class Events
             $bodySize = $mr[SocketHead::H6_BODY];
             PhpLog::println("mr2", $mr);
             PhpLog::println("message2", $message);
+            PhpLog::println("messageSize", $messageSize);
 
             switch ($mr[SocketHead::H4_CMD]) {
                 case Events::CMD_ID_NOOP:
