@@ -4,7 +4,6 @@
     <list default="true" id="86687895-b8d6-4b20-86fc-03607ba6c4b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Applications/Genesis/Events.php" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Genesis/Events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Applications/Genesis/Events.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="116" column="59" lean-forward="true" selection-start-line="116" selection-start-column="59" selection-end-line="116" selection-end-column="59" />
+            <state relative-caret-position="250">
+              <caret line="113" column="14" lean-forward="true" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="75">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -246,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544670179405" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544670432102" />
     <property name="last_opened_file_path" value="D:/phpstorm-stubs-master" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -318,7 +317,7 @@
       <workItem from="1544407513835" duration="17674000" />
       <workItem from="1544508083375" duration="18369000" />
       <workItem from="1544661775309" duration="399000" />
-      <workItem from="1544662433242" duration="7291000" />
+      <workItem from="1544662433242" duration="7533000" />
     </task>
     <task id="LOCAL-00001" summary="1.修改mysql密码&#10;2.更改证书位置">
       <created>1544666323194</created>
@@ -369,11 +368,25 @@
       <option name="project" value="LOCAL" />
       <updated>1544669718102</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;&quot;">
+      <created>1544670080793</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544670080793</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&quot;&quot;">
+      <created>1544670229951</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1544670229951</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92312000" />
+    <option name="totallyTimeSpent" value="92554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -764,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Applications/Genesis/Socket/SocketCache.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -780,8 +786,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Applications/Genesis/Events.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="116" column="59" lean-forward="true" selection-start-line="116" selection-start-column="59" selection-end-line="116" selection-end-column="59" />
+        <state relative-caret-position="250">
+          <caret line="113" column="14" lean-forward="true" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Applications/Genesis/Tools/PhpLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>

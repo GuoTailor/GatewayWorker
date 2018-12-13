@@ -19,7 +19,10 @@ class PhpLog
     public static function println($TAG ,$log) {
         $time = date("Y-m-d H:i:s");
         print $time." ".$TAG.": ";
-        print_r($log);
+        if ($log == null)
+            print "\r\n";
+        else
+            print_r($log);
         print "\r\n";
     }
 
