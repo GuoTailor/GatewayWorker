@@ -8,7 +8,7 @@
  */
 
 namespace Tools;
-
+$f = null;
 class PhpLog
 {
     private static function LogFile($log, $file) {
@@ -37,7 +37,10 @@ class PhpLog
      * @return [type] [description]
      */
     static function lock_open(){
-        return fopen("flock.xhxx","w+");
+        global $f;
+        if ($f == null)
+            $f = fopen("flock.xhxx","w+");
+        return $f;
     }
 
     /**

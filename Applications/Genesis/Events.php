@@ -124,7 +124,7 @@ class Events
                 SocketCache::delete($client_id); // 删除缓存文件
                 $fileHead = substr($fileData, 0, SocketHead::HEAD_SIZE);
                 $fileMr = SocketHead::unpack($fileHead);
-                self::handleMessage($client_id, $fileMr, $fileData);
+                    self::handleMessage($client_id, $fileMr, $fileData);
             }
         }
 
