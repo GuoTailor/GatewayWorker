@@ -52,7 +52,8 @@ class User
             return TTPublic::getResponse(TTCode::TT_INVALID_DATA);
         }
         $info_req = TTUser::login($mobile, $password, $access_token, $device_token);
-        PhpLog::Log("登录info: ".$info_req);
+        //PhpLog::Log("登录info: ".$info_req);
+        print_r($info_req);
         return $info_req;
     }
 
