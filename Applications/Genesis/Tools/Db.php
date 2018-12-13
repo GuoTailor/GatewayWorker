@@ -18,7 +18,7 @@ class Db
 
         if($connect == null) {
             $connect = new Connection("127.0.0.1", 3306,
-                "root", "Motalk2016", "tt_genesis");
+                "root", "admin", "tt_genesis");
         }
 
         return $connect;

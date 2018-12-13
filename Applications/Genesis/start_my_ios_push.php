@@ -9,7 +9,7 @@ use \Workerman\Worker;
 
 use ThirdParty\IOSPush;
 
-const FILE_PATH = "/data/wwwroot/data/genesis/";
+const FILE_PATH = "/home/admin123/server/GatewayWorker/";
 const CERT = FILE_PATH."cert/server_certificates_bundle_sandbox.pem";
 const CERT_ROOT = FILE_PATH."cert/entrust_root_certification_authority.pem";
 
