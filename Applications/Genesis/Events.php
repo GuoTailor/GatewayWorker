@@ -105,11 +105,11 @@ class Events
 
         PhpLog::Log("Request message size: ".strlen($message));
 
-        PhpLog::println("message>>", $message);
         // 解析head
         $head = substr($message, 0, SocketHead::HEAD_SIZE);
         $mr = SocketHead::unpack($head);
         PhpLog::Log("Request head: ".json_encode($mr));
+        PhpLog::println("message>>", $message);
         PhpLog::println("head", $head);
         PhpLog::println("mr", $mr);
         // 检测头是否有效
