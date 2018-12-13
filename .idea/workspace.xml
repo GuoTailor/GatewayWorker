@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="86687895-b8d6-4b20-86fc-03607ba6c4b0" name="Default Changelist" comment="&quot;&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Applications/Genesis/Events.php" beforeDir="false" afterPath="$PROJECT_DIR$/Applications/Genesis/Events.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push.bat" beforeDir="false" afterPath="$PROJECT_DIR$/push.bat" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/push.bat">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            <state relative-caret-position="25">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -277,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544681541729" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544681666671" />
     <property name="last_opened_file_path" value="D:/phpstorm-stubs-master" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -349,7 +349,7 @@
       <workItem from="1544407513835" duration="17674000" />
       <workItem from="1544508083375" duration="18369000" />
       <workItem from="1544661775309" duration="399000" />
-      <workItem from="1544662433242" duration="13310000" />
+      <workItem from="1544662433242" duration="13455000" />
     </task>
     <task id="LOCAL-00001" summary="1.修改mysql密码&#10;2.更改证书位置">
       <created>1544666323194</created>
@@ -488,7 +488,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98331000" />
+    <option name="totallyTimeSpent" value="98476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,7 +523,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" weight="0.32925472" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32850778" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32850778" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Statistic" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
@@ -894,8 +894,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/push.bat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        <state relative-caret-position="25">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
