@@ -16,9 +16,9 @@ class PhpLog
         file_put_contents($file, $time." ".$log."\r\n\r\n",FILE_APPEND);
     }
 
-    public static function println($massage ,$log) {
+    public static function println($TAG ,$log) {
         $time = date("Y-m-d H:i:s");
-        print_r($time." ".$massage.": ");
+        print $time." ".$TAG.": ";
         print_r($log);
         print "\r\n";
     }

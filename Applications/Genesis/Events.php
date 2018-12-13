@@ -118,7 +118,7 @@ class Events
         } else {
             // 拼接数据
             $fileData = SocketCache::write($client_id, $message, true);
-
+            PhpLog::println("fileData", $fileData);
             // 检测是否拼接完成
             if($fileData != null) {
                 SocketCache::delete($client_id); // 删除缓存文件
