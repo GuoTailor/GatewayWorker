@@ -29,7 +29,6 @@ class PhpLog
         print "<<\r\n";
 
         self::lock_unlock($f);//解锁
-        self::lock_close($f);//删除锁
     }
 
     /**
