@@ -85,7 +85,7 @@ class SocketInd
         $retBody = array(SocketConst::IND_SENDOR => $user_id,
             SocketConst::IND_MSG_CODE => SocketCode::USER_OTHER_DEVICE_LOGIN_IND,
             SocketConst::IND_DATA => $msgRsp);
-
+        PhpLog::println("nmka", json_encode($retBody));
         MessageTools::sendMessageToClient($client_id, json_encode($retBody));
     }
 

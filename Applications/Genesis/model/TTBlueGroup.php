@@ -204,7 +204,7 @@ class TTBlueGroup
 
         PhpLog::Log("getBlueGroup ".$access_token);
 
-        // 获取用户信息
+            // 获取用户信息
         $userInfo = TTDbFun::getInfoByAccessToken($access_token);
         if($userInfo == null) {
             return TTPublic::getResponse(TTCode::TT_LOGIN_INVALID);

@@ -56,7 +56,7 @@ class Device
         if(empty($access_token) || empty($address) || empty($name)) {
             return TTPublic::getResponse(TTCode::TT_PARA_ERR);
         }
-
+    
         return TTDevice::deviceUploadHeadset($access_token, $address, $name, $version, $serial_number, $remark);
     }
 

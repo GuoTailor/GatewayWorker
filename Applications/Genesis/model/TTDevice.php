@@ -71,7 +71,7 @@ class TTDevice
         return TTPublic::getResponse(TTCode::TT_SUCCESS);
     }
 
-    public static function deviceUploadControler($access_token, $address, $name, $version, $serial_number, $remark) {
+    public static function  deviceUploadControler($access_token, $address, $name, $version, $serial_number, $remark) {
         // 检测是否登陆
         $myInfo = TTDbFun::getInfoByAccessToken($access_token);
         if($myInfo == null) {

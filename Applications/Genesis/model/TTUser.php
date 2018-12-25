@@ -443,7 +443,7 @@ class TTUser
         return TTPublic::getResponse(TTCode::TT_SUCCESS);
     }
 
-    public static function checkUser($mobile, $type) {
+    public static function  checkUser($mobile, $type) {
 
         // 获取用户信息
         $userInfo = TTDbFun::getInfoByMobile($mobile);

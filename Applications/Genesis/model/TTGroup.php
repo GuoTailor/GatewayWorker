@@ -930,7 +930,7 @@ class TTGroup
      */
     public static function leaveGroup($user_id, $group_id) {
 
-        // 骑行记录 - 离开
+            // 骑行记录 - 离开
         TTRidingRecord::leave($user_id, $group_id);
 
         return TTPublic::getResponse(TTCode::TT_SUCCESS);
